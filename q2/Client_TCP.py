@@ -1,7 +1,7 @@
 import socket
 from datetime import datetime, time
 main_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-main_socket.connect(('localhost',24883))
+main_socket.connect(('localhost',38447))
 msg = input()
 timer = datetime.now()
 
